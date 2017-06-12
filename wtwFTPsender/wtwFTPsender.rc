@@ -1,0 +1,184 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAGE DIALOGEX 0, 0, 235, 410
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_ADDRESS,50,17,175,14,ES_AUTOHSCROLL
+    RTEXT           "Adres:",IDC_STATIC,10,20,33,8
+    EDITTEXT        IDC_PORT,50,35,38,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Port:",IDC_STATIC,10,38,33,8
+    EDITTEXT        IDC_USERNAME,50,53,175,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SERVER_PATH,10,165,215,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SERVER_PATH_URL,10,199,215,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,50,71,175,14,ES_PASSWORD | ES_AUTOHSCROLL
+    RTEXT           "Login:",IDC_STATIC,10,56,33,8
+    RTEXT           "Has³o:",IDC_STATIC,10,74,33,8
+    LTEXT           "Docelowa œcie¿ka na serwerze FTP",IDC_STATIC,20,151,205,8
+    LTEXT           "Link do katalogu docelowego",IDC_STATIC,20,185,205,8
+    CONTROL         "Poka¿ link do pliku jako wiadomoœæ informacyjn¹\n(nie wysy³aj jako wiadomoœæ do kontaktu)",IDC_SHOW_AS_INFO,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,322,215,19
+    GROUPBOX        "Dane serwera FTP",IDC_STATIC,5,5,225,123
+    GROUPBOX        "Opcje plików i katalogów",IDC_STATIC,5,135,225,126
+    GROUPBOX        "Opcje wiadomoœci",IDC_STATIC,5,266,225,85
+    EDITTEXT        IDC_MSG_FORMAT,10,293,197,14,ES_AUTOHSCROLL
+    LTEXT           "Format wiadomoœci",IDC_STATIC,20,279,62,8
+    PUSHBUTTON      "?",IDC_MSG_FORMAT_HELP,211,293,14,14
+    EDITTEXT        IDC_FILENAME_FORMAT,10,234,197,14,ES_AUTOHSCROLL
+    LTEXT           "Format nazwy pliku",IDC_STATIC,20,220,205,8
+    PUSHBUTTON      "?",IDC_FILENAME_FORMAT_HELP,211,234,14,14
+    RTEXT           "Timeout:",IDC_STATIC,10,93,33,8
+    EDITTEXT        IDC_TIMEOUT,50,90,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Tryb pasywny",IDC_PASSIVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,50,110,175,10
+    GROUPBOX        "Inne",IDC_STATIC,5,359,225,46
+    CONTROL         "Pokazuj powiadomienia o postêpie przesy³ania",IDC_SHOW_NOTIFY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,387,215,10
+    CONTROL         "Pokazuj przycisk na belce w oknie rozmowy",IDC_SHOW_BUTTON,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,374,215,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 230
+        VERTGUIDE, 10
+        VERTGUIDE, 20
+        VERTGUIDE, 43
+        VERTGUIDE, 50
+        VERTGUIDE, 225
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 405
+        HORZGUIDE, 24
+        HORZGUIDE, 42
+        HORZGUIDE, 60
+        HORZGUIDE, 78
+        HORZGUIDE, 97
+        HORZGUIDE, 115
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,4,0,1
+ PRODUCTVERSION 0,4,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041504b0"
+        BEGIN
+            VALUE "Comments", "Emotikony w WTW"
+            VALUE "CompanyName", "adrian_007"
+            VALUE "FileDescription", "WTW Plugin"
+            VALUE "FileVersion", "0, 4, 0, 1"
+            VALUE "InternalName", "wtwFTPsender"
+            VALUE "LegalCopyright", "Copyright (C) 2009 adrian_007"
+            VALUE "OriginalFilename", "wtwFTPsender.dll"
+            VALUE "ProductName", "wtwFTPsender"
+            VALUE "ProductVersion", "0, 4, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x415, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                PNG                     "ftp.png"
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

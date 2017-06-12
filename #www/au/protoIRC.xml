@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Plik wygenerowany przez WTW Extension Maker v1.2.7272.0-->
+<metanode>
+  <updateInfo arch="*" fileBase="http://wtw.adrian-007.eu/download/" version="0.2.0.2">
+    <file lzFile="protoIRC.wtwExtension" />
+  </updateInfo>
+  <changelog name="protoIRC">
+    <group name="0.2.0.2">
+      <entry>- domyslne ikony w PluginData</entry>
+      <entry>- karty mozna teraz zamykac</entry>
+    </group>
+  </changelog>
+</metanode>

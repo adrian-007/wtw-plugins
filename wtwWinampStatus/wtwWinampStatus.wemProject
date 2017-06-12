@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwWinampStatus</name>
+  <author>adrian_007</author>
+  <guid>{35E0ABC4-3F84-4081-A7A1-4976BE125DA8}</guid>
+  <ver>0.2.1.2</ver>
+  <desc>Aktualnie odtwarzany utwór w opisie</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwWinampStatus.xml</update>
+  <class>0</class>
+  <image />
+  <pluginsx64>
+    <file name="wtwWinampStatus.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwWinampStatus.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwWinampStatus.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwWinampStatus.plug" arch="1" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwWinampStatus.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.2.1.2">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

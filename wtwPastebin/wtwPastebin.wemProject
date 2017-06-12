@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwPastebin</name>
+  <author>adrian_007</author>
+  <guid>{C55245D3-781B-4c23-978B-E94E16F1B7A3}</guid>
+  <ver>0.3.0.2</ver>
+  <desc>Automatyczne wysyłanie obrazków na serwisy hostingowe</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwPastebin.xml</update>
+  <class>0</class>
+  <image>W:\Visual Studio Projects\wtw-plugins_svn\trunk\wtwPastebin\icon32.png</image>
+  <pluginsx64>
+    <file name="wtwPastebin.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwPastebin.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwPastebin.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwPastebin.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwPastebin.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.3.0.2">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

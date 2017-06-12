@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwClipboard</name>
+  <author>adrian_007</author>
+  <guid>{BD529ECB-BE78-4482-9D72-9056270128D6}</guid>
+  <ver>0.1.1.3</ver>
+  <desc>Schowek WTW</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwClipboard.xml</update>
+  <class>0</class>
+  <image>W:\Visual Studio Projects\wtw-plugins_svn\trunk\wtwClipboard\icon48.png</image>
+  <pluginsx64>
+    <file name="wtwClipboard.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwClipboard.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwClipboard.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwClipboard.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwClipboard.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.1.1.3">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

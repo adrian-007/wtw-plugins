@@ -1,0 +1,13 @@
+﻿** 0.1.0.2
+ * przejscie na VS2013
+
+** 0.1.0.1
+ * poprawki wzgledem zmian w api
+
+** 0.1.0.0
+ * dodana mozliwosc ustawienia statusu i opisu kontaktu
+ * dodana mozliwosc ustawienia typu komendy (co ma wplyw na uzyta ikone)
+ * dodatkowe ikony: iconApplication.png, iconDirectory.png, iconLink.png
+
+** 0.0.0.1
+ * initial release

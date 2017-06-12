@@ -1,0 +1,154 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 501, 365
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Sounds Set Creator v0.3"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SET_NAME,48,11,200,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DESTINATION,294,11,200,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SET_DESC,48,31,386,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Zamknij",IDOK,444,346,50,12
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,56,487,280
+    RTEXT           "Opis:",IDC_STATIC,7,31,36,14,SS_CENTERIMAGE
+    RTEXT           "Autor:",IDC_STATIC,7,11,36,14,SS_CENTERIMAGE
+    PUSHBUTTON      "Generuj",IDC_GENERATE,444,31,50,14
+    PUSHBUTTON      "U&staw...",IDC_FILE,7,346,100,12
+    RTEXT           "Nazwa:",IDC_STATIC,258,11,30,14,SS_CENTERIMAGE
+    PUSHBUTTON      "&Usuñ zaznaczenie",IDC_REM,294,346,100,12
+    COMBOBOX        IDC_SOUND_TYPE,113,345,175,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 494
+        VERTGUIDE, 43
+        VERTGUIDE, 48
+        VERTGUIDE, 288
+        VERTGUIDE, 294
+        VERTGUIDE, 434
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 358
+        HORZGUIDE, 18
+        HORZGUIDE, 38
+        HORZGUIDE, 351
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,2
+ PRODUCTVERSION 0,0,0,2
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041504b0"
+        BEGIN
+            VALUE "CompanyName", "adrian_007"
+            VALUE "FileDescription", "Program do tworzenia zestawów kompatybilnych z wtyczk¹ Sounds dla komunikatora WTW"
+            VALUE "FileVersion", "0, 0, 0, 2"
+            VALUE "InternalName", "SoundsSetCreator"
+            VALUE "LegalCopyright", "Copyright (C) 2011"
+            VALUE "OriginalFilename", "SoundsSetCreator.exe"
+            VALUE "ProductName", "Sounds Set Creator"
+            VALUE "ProductVersion", "0, 0, 0, 2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x415, 1200
+    END
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

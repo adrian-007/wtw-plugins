@@ -1,0 +1,16 @@
+﻿** 0.3.0.2
+ * przejscie na VS2013
+
+** 0.3.0.0
+ * implementacja nowego API
+ * okno wpisywania tekstu ma teraz czcionke o stalej dlugosci (programisci docenia...)
+ * owe okno moze tez zmieniac rozmiar
+ * przejscie na paczkowanie
+
+** 0.2.0.0
+ * poprawki w wysylaniu wiadomosci (dziala z ircem...)
+ * mozliwosc ustawienia formatu, czasu wygasniecia oraz prywatnosci
+ * wywalone okno z opcji bo i w sumie po co ono tam
+
+** 0.1.0.0
+ * initial release

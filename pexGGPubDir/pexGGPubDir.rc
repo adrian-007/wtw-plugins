@@ -1,0 +1,180 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,4,0,1
+ PRODUCTVERSION 0,4,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041504b0"
+        BEGIN
+            VALUE "Comments", "Emotikony w WTW"
+            VALUE "CompanyName", "adrian_007"
+            VALUE "FileDescription", "WTW Plugin"
+            VALUE "FileVersion", "0, 4, 0, 1"
+            VALUE "InternalName", "pexGGPubDir"
+            VALUE "LegalCopyright", "Copyright (C) 2009 adrian_007"
+            VALUE "OriginalFilename", "pexGGPubDir.dll"
+            VALUE "ProductName", "pexGGPubDir"
+            VALUE "ProductVersion", "0, 4, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x415, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 503, 271
+STYLE DS_SETFONT | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Katalog publiczny Gadu-Gadu"
+FONT 8, "Verdana", 400, 0, 0xEE
+BEGIN
+    EDITTEXT        IDC_NAME,15,33,128,14,ES_AUTOHSCROLL | WS_GROUP
+    EDITTEXT        IDC_SURNAME,15,63,128,14,ES_AUTOHSCROLL | WS_GROUP
+    COMBOBOX        IDC_REGION,15,94,128,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    EDITTEXT        IDC_CITY,15,122,128,14,ES_AUTOHSCROLL | WS_GROUP
+    EDITTEXT        IDC_STREET,15,153,128,14,ES_AUTOHSCROLL | WS_GROUP
+    COMBOBOX        IDC_SEX,15,184,128,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    EDITTEXT        IDC_AGE_MIN,35,213,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_GROUP
+    EDITTEXT        IDC_AGE_MAX,103,213,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_GROUP
+    EDITTEXT        IDC_GGNUMBER,15,242,128,14,ES_AUTOHSCROLL | ES_NUMBER | WS_GROUP
+    DEFPUSHBUTTON   "Szukaj",IDC_SEARCH,158,242,50,14,WS_GROUP
+    PUSHBUTTON      ">>>",IDC_NEXT,262,242,50,14,WS_DISABLED | WS_GROUP
+    PUSHBUTTON      "<<<",IDC_PREV,210,242,50,14,WS_DISABLED | WS_GROUP
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,158,11,338,216
+    GROUPBOX        "Parametry wyszukiwania",IDC_STATIC,7,7,144,257
+    LTEXT           "Imiê:",IDC_STATIC,15,21,128,8
+    LTEXT           "Nazwisko:",IDC_STATIC,15,51,128,8
+    LTEXT           "Miejscowoœæ:",IDC_STATIC,15,111,128,8
+    LTEXT           "Ulica:",IDC_STATIC,15,141,128,8
+    LTEXT           "P³eæ:",IDC_STATIC,15,171,128,8
+    LTEXT           "Wiek:",IDC_STATIC,15,201,128,8
+    LTEXT           "od:",IDC_STATIC,15,216,12,8
+    LTEXT           "do:",IDC_STATIC,83,216,12,8
+    LTEXT           "Numer GG:",IDC_STATIC,15,231,128,8
+    LTEXT           "Województwo:",IDC_STATIC,15,81,128,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 496
+        VERTGUIDE, 15
+        VERTGUIDE, 143
+        VERTGUIDE, 151
+        VERTGUIDE, 158
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+        HORZGUIDE, 25
+        HORZGUIDE, 40
+        HORZGUIDE, 55
+        HORZGUIDE, 70
+        HORZGUIDE, 85
+        HORZGUIDE, 100
+        HORZGUIDE, 115
+        HORZGUIDE, 129
+        HORZGUIDE, 145
+        HORZGUIDE, 160
+        HORZGUIDE, 175
+        HORZGUIDE, 190
+        HORZGUIDE, 205
+        HORZGUIDE, 220
+        HORZGUIDE, 235
+        HORZGUIDE, 249
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

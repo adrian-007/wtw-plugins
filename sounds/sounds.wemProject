@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>Sounds</name>
+  <author>adrian_007</author>
+  <guid>{B897076D-D098-4cae-8E93-7719A1F60073}</guid>
+  <ver>0.9.5.0</ver>
+  <desc>Powiadomienia dźwiękowe o zdarzeniach.</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/sounds.xml</update>
+  <class>0</class>
+  <image>W:\Visual Studio Projects\wtw-plugins_svn\trunk\sounds\sounds_icon.png</image>
+  <pluginsx64>
+    <file name="sounds.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\sounds.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="sounds.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\sounds.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="sounds.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.9.5.0">
+        <entry>- przejscie na VS2013</entry>
+        <entry>- usuniete menu z "narzedzia"</entry>
+        <entry>- dodany przycisk wyciszajacy dzwieki do panelu</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

@@ -1,0 +1,14 @@
+** 0.1.1.1
+ * przejscie na VS2013
+
+** 0.1.1.0
+ * poprawne sprawdzanie typu kontaktu przy ustawianiu avatara
+
+** 0.1.0.1
+ * poprawione wczytywanie avatarow
+
+** 0.1.0.0
+ * dodano obsluge JPG/BMP/ICO
+
+** 0.0.0.1
+ * initial release

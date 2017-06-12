@@ -1,0 +1,30 @@
+** 0.2.1.3
+ * przejscie na VS2013
+
+** 0.2.1.2
+ * poprawne wczytywanie ikon
+
+** 0.2.1.0
+ * zmieniony styl podpowiedzi
+
+** 0.2.0.1
+ * w konsoli juz sie smieci nie wyswietlaja
+
+** 0.2.0.0
+ * poprawione zmniejszanie listy przy 15 lub wiecej elementach
+ * za pomoca klawsza delete mozemy usunac item'a
+ * za pomoca escape mozemy zamknac liste
+
+** 0.1.1.1
+ * poprawiony blad na XP (thx zzjacek za wytrwale testowanie krzyza :F)
+
+** 0.1.0.0
+ * combobox wylecial, przylecial CListViewCtrl
+ * co za tym idzie blad wyswietlania na xp is no more
+
+** 0.0.2.0
+ * naprawiony crash przy wyladowaniu pluga
+ * dodany tooltip na liscie statusow
+
+** 0.0.1.0
+ * initial release

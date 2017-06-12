@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.2.7272.0-->
+<wemProject>
+  <name>protoIRC</name>
+  <author>adrian_007</author>
+  <guid>{635D0891-4596-4831-B5BC-519A7E92EF29}</guid>
+  <ver>0.2.0.2</ver>
+  <desc>IRC Protocol Plugin</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/protoIRC.xml</update>
+  <class>0</class>
+  <image>W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoIRC\icon48.png</image>
+  <pluginsx64>
+    <file name="protoIRC.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\protoIRC.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="protoIRC.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\protoIRC.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <profile>
+    <directory name="PluginData">
+      <directory name="setIRC">
+        <file name="available.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoIRC\setIRC\available.png" arch="0" ni="False" />
+        <file name="away.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoIRC\setIRC\away.png" arch="0" ni="False" />
+        <file name="desc.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoIRC\setIRC\desc.png" arch="0" ni="False" />
+        <file name="unavailable.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoIRC\setIRC\unavailable.png" arch="0" ni="False" />
+      </directory>
+    </directory>
+  </profile>
+  <updatexml file="protoIRC.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.2.0.2">
+        <entry>- domyslne ikony w PluginData</entry>
+        <entry>- karty mozna teraz zamykac</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

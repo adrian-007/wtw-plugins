@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwFTPsender</name>
+  <author>adrian_007</author>
+  <guid>{4813DBB2-8A8E-4214-8128-2626B0C136C3}</guid>
+  <ver>0.4.2.1</ver>
+  <desc>Wysyłanie plików na serwer FTP</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwFTPsender.xml</update>
+  <class>0</class>
+  <image>W:\Visual Studio Projects\wtw-plugins_svn\trunk\wtwFTPsender\ftp48.png</image>
+  <pluginsx64>
+    <file name="wtwFTPsender.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwFTPsender.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwFTPsender.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwFTPsender.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwFTPsender.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.4.2.1">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

@@ -1,0 +1,23 @@
+** 0.2.0.3
+ * przejscie na VS2013
+
+** 0.2.0.2
+ * proba naprawy dzialania na WinXP
+
+** 0.2.0.1
+ * rekompilacja pod nowe api
+ * poprawione crt
+
+** 0.2.0.0
+ * nowa metoda subclassing'u - nie wywala juz wtw podczas konczenia pracy
+ * zaktualizowana pod Visual Studio 2008 SP1 (uzywa redistributable od wtw)
+ * autoupdate
+
+** 0.1.1.3
+ * dodany GUID
+
+** 0.1.1.2
+ * rekompilacja pod nowe API
+
+** 0.1.0.1
+ * initial release

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>protoBonjour</name>
+  <author>adrian_007</author>
+  <guid>{B9DDE825-86C5-4a3c-A0BF-76F0C5588FD3}</guid>
+  <ver>0.0.0.4</ver>
+  <desc>Bonjour protocol support for WTW</desc>
+  <url>http://wtw.adrian-007.eu</url>
+  <update>http://wtw.adrian-007.eu/au/protoBonjour.xml</update>
+  <class>0</class>
+  <image>W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoBonjour\icon48.png</image>
+  <pluginsx64>
+    <file name="protoBonjour.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\protoBonjour.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="protoBonjour.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\protoBonjour.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <theme>
+    <directory name="setBONJ">
+      <file name="available.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoBonjour\setBONJ\available.png" arch="0" ni="False" />
+      <file name="away.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoBonjour\setBONJ\away.png" arch="0" ni="False" />
+      <file name="dnd.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoBonjour\setBONJ\dnd.png" arch="0" ni="False" />
+      <file name="unavailable.png" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\protoBonjour\setBONJ\unavailable.png" arch="0" ni="False" />
+    </directory>
+  </theme>
+  <updatexml file="protoBonjour.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.0.0.4">
+        <entry>- poprawiony blad z podwojnym startem</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

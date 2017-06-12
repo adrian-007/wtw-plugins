@@ -1,0 +1,178 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAGE DIALOGEX 0, 0, 235, 758
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_PALETTEWINDOW | WS_EX_TRANSPARENT | WS_EX_CONTROLPARENT
+FONT 8, "Verdana", 400, 0, 0xEE
+BEGIN
+    COMBOBOX        IDC_XML_SET,10,9,215,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Brak",IDC_AUTHOR,50,31,175,8
+    LTEXT           "Brak",IDC_DESC,50,44,175,8
+    RTEXT           "Autor:",IDC_STATIC,15,31,28,8
+    RTEXT           "Opis:",IDC_STATIC,15,44,28,8
+    COMBOBOX        IDC_VOLUME,50,57,40,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "U¿ywaj w sieciach:",IDC_STATIC,5,76,225,91
+    CONTROL         "Wy³¹cz dŸwiêki gdy ustawiono status ""Dostêpny"" lub ""Porozmawiajmy""",IDC_MUTE_ON_AVAILABLE,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,211,215,20
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,10,327,215,151
+    GROUPBOX        "Filtrowanie zdarzeñ",IDC_STATIC,5,492,225,81
+    LTEXT           "Odstêp czasu (w sekundach):",IDC_STATIC,81,508,116,8
+    CONTROL         "Wiadomoœci",IDC_FILTER_MESSAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,522,52,12
+    CONTROL         "Statusy",IDC_FILTER_STATUS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,537,35,12
+    CONTROL         "Ró¿ne",IDC_FILTER_MISC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,553,31,12
+    LTEXT           "Typ zdarzenia:",IDC_STATIC,10,508,63,8
+    EDITTEXT        IDC_MESSAGE_DELAY,81,522,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_STATUS_DELAY,81,537,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_MISC_DELAY,81,553,22,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Je¿eli w zadanym odstêpie czasu nadejdzie zdarzenie, to zostanie ono zignorowane.",IDC_STATIC,112,522,101,40
+    CONTROL         "U¿ywaj systemowego dŸwiêku gdy plik nie zosta³ ustawiony w zestawie",IDC_USE_BEEP,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,186,215,20
+    GROUPBOX        "Ignorowanie zmian statusów",IDC_STATIC,5,580,225,174
+    LTEXT           "Ignoruj zmianê z:",IDC_STATIC,10,594,138,10
+    CONTROL         "",IDC_PRESENCE_TO_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,10,642,215,107
+    LTEXT           "na:",IDC_STATIC,10,627,105,11
+    COMBOBOX        IDC_PRESENCE_COMBO,10,610,215,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Zdarzenia",IDC_STATIC,5,314,225,170
+    CONTROL         "",IDC_NETWORKS,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,10,89,215,72
+    CONTROL         "Powiadomienie o wiadomoœci dzia³a na ka¿dej sieci",IDC_ALWAYS_NOTIFY_ON_MSG,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,259,215,20
+    RTEXT           "G³oœnoœæ:",IDC_STATIC,10,59,33,8
+    GROUPBOX        "Zachowanie",IDC_STATIC,5,173,225,136
+    CONTROL         "Wy³¹cz dŸwiêki gdy ustawiono status ""Nie przeszkadzaæ""",IDC_MUTE_ON_DND,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,235,215,20
+    CONTROL         "Wy³¹cz powiadomienia dŸwiêkowe gdy aktywna jest aplikacja pe³noekranowa",IDC_DISABLE_ON_FULLSCREEN,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,10,283,215,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 233
+        VERTGUIDE, 5
+        VERTGUIDE, 10
+        VERTGUIDE, 225
+        VERTGUIDE, 230
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 756
+        HORZGUIDE, 35
+        HORZGUIDE, 48
+        HORZGUIDE, 63
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,9,1,1
+ PRODUCTVERSION 0,9,1,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041504b0"
+        BEGIN
+            VALUE "Comments", "WTW Plugin"
+            VALUE "FileDescription", "Sounds"
+            VALUE "FileVersion", "0, 9, 1, 1"
+            VALUE "InternalName", "Sounds"
+            VALUE "LegalCopyright", "Copyright (C) 2009 adrian_007"
+            VALUE "OriginalFilename", "sounds.plug"
+            VALUE "ProductName", "Sounds Dynamic Link Library"
+            VALUE "ProductVersion", "0, 9, 1, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x415, 1200
+    END
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

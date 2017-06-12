@@ -1,0 +1,15 @@
+** 0.0.0.4
+ * poprawiony blad w podwojnym startem
+
+** 0.0.0.3
+ * poprawiony blad z globalnym statusem
+ * troche wiecej smieci w konsoli
+
+** 0.0.0.2
+ * wtyczka reaguje na zmiane statusu globalnego
+ * reaguje takze na ustawiony stan poczatkowy
+ * poprawiona komunikacja z iChat'em
+ * kontakty laduja w wybranej grupie
+
+** 0.0.0.1
+ * initial release

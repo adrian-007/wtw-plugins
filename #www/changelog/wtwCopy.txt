@@ -1,0 +1,34 @@
+** 0.1.4.3
+ * przejscie na VS2013
+
+** 0.1.4.2
+ * poprawione kopiowanie opisu na nowszych wersjach wtw
+ * przejscie na wtwExtension
+
+** 0.1.4.1
+ * rekompilacja pod nowe API
+ * dynamiczne crt
+
+** 0.1.4.0
+ * naprawione kopiowanie opisu
+
+** 0.1.2.0
+ * padadam, wtyczka uwzglednia dodatkowe dane dodane do api
+
+** 0.1.1.0
+ * usuwa standardowe "Kopiuj opis"
+
+** 0.1.0.0
+ * wszystko wbite do jednego popup'a "Kopiuj..."
+ * autoupdate
+ * dodana mozliwosc kopiowania
+   - opisu
+   - maila
+   - telefonu kom.
+   - telefonu dom.
+
+** 0.0.1.2
+ * przekompilowana wersja
+
+** 0.0.1.1
+ * initial release

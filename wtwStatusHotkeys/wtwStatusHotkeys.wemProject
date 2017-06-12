@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwStatusHotkeys</name>
+  <author>adrian_007</author>
+  <guid>{7A261A1B-3994-4ef5-B461-66133F598C2D}</guid>
+  <ver>0.1.1.1</ver>
+  <desc>Skróty klawiszowe do zmiany statusu</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwStatusHotkeys.xml</update>
+  <class>0</class>
+  <image />
+  <pluginsx64>
+    <file name="wtwStatusHotkeys.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwStatusHotkeys.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwStatusHotkeys.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwStatusHotkeys.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwStatusHotkeys.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.1.1.1">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

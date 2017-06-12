@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwListTabs</name>
+  <author>adrian_007</author>
+  <guid>{FC7BFE97-90D6-486E-B95F-B88A55CBDAF4}</guid>
+  <ver>0.4.3.2</ver>
+  <desc>Implementacja wbudowanych filtrów jako kart na liście kontaktów (konnektowcy, można szaleć)</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwListTabs.xml</update>
+  <class>0</class>
+  <image />
+  <pluginsx64>
+    <file name="wtwListTabs.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwListTabs.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwListTabs.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwListTabs.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwListTabs.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.4.3.2">
+        <entry>- ze niby cos sie wywracalo</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

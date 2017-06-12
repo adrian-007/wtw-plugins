@@ -1,0 +1,87 @@
+** 0.3.8.2
+ * przejscie na VS2013
+
+** 0.3.8.1
+ * jak ktos ma utlIgnore, to moze zaznaczyc ignorowanie przetwarzania dla danego kontaktu
+
+** 0.3.7.11
+ * rekompilacja pod nowe API
+
+** 0.3.7.8 - 0.3.7.10
+ * poprawki bezpieczenstwa
+
+** 0.3.7.7
+ * poprawione wczytywanie wyrazen
+
+** 0.3.7.6
+ * poprawione wiadomosci wychodzace na tlenie
+
+** 0.3.7.5
+ * tymczasowa poprawka na wiadomosci konferencyjne
+
+** 0.3.7.4
+ * kolejna poprawka html escape...
+
+** 0.3.7.2
+ * poprawiony znak entera na XMPP (w wyslanych)
+
+** 0.3.7.1
+ * jezeli wiadomosc przychodzaca po przejsciu przez regex jest wiadomoscia pusta, to event zostaje olany
+ * poprawki do html escape (z enterami i tabulacja)
+
+** 0.3.7.0
+ * zmieniony sposob html escape - teraz za kazdym razem, niezaleznie od ustawien dostajemy wiadomosc PO html escape
+ * dodana mozliwosc modyfikacji tresci wiadomosci przychodzacych (a co za tym idzie - wszystkich tez)
+
+** 0.3.6.0
+ * w regex i format mozna uzywac zmiennych (%contactNick%, %contactId%, %profileName% a dodatkowo tylko w format jeszcze %profilePath% i %appPath%)
+
+** 0.3.5.1
+ * zmienne wypada inicjowac jakas wartoscia
+
+** 0.3.5.0
+ * poprawiony blad z ignorowanymi wiadomosciami w archiwum
+ * zmienione okno edycji elementu
+ * przy zmianie trybu modyfikacji na zmiane tresci, stara wartosc typu wiadomosci zostaje zapamietana
+ * double blast na elemencie listy otwiera okno modyfikacji
+ * przy okazji wtyczka zlinkowana do najnowszego crt
+
+** 0.3.4.0
+ * poprawiony blad z html escape
+
+** 0.3.3.0
+ * poprawki stabilnosci
+ * nie robimy html escape dla wiadomosci wychodzacych
+
+** 0.3.2.0
+ * wtyczka moze teraz modyfikowac wiadomosci wychodzace
+ * pole formatu moze byc puste, dzieki czemu wiadomosc nie zostanie wyslana/wyswietlona
+ * w polu format mozna uzyc zmiennej %profileName% i %contactId%
+
+** 0.3.1.0
+ * proba naprawy domniemanego crash'a przy starcie
+ * poprawne rozmiary w oknie opcji
+
+** 0.3.0.1
+ * rekompilacja pod nowe API
+ * namiary na nowy serwer
+
+** 0.3.0.0
+ * wtyczka doczekala sie strony w ustawieniach
+ * mozna wybrac typ wiadomosci na jakim ma dzialac (in/out/both)
+ * elementy sa zapisywane w pliku binarnym a nie xml - edycja mozliwa tylko z poziomu opcji
+ * wtyczka uzywa tego samego runtime co wtw
+
+** 0.2.2.0
+ * teraz plik zaladuje klasa do tego stworzona (std::ifstream no more)
+ * kolejnosc atrybutow nie ma znaczenia
+ * jak dla pluga atrybuty sie nie spodobaja albo jest ich za malo/duzo to oleje itema i da odpowiedni wpis w konsoli
+
+** 0.2.1.0
+ * jezeli wiadomosc to obrazek, to jej nie przetwarzamy
+
+** 0.2.0.0
+ * boost::regex
+
+** 0.1.0.0
+ * initial release

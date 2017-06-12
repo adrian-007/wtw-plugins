@@ -1,0 +1,9 @@
+** 0.1.0.2
+ * przejscie na VS2013
+
+** 0.1.0.1
+ * rekompilacja pod nowe api
+ * naprawiony timer
+
+** 0.1.0.0
+ * initial release

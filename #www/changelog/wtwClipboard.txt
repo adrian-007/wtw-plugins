@@ -1,0 +1,21 @@
+** 0.1.1.2
+ * przejscie na VS2013
+
+** 0.1.1.1
+ * poprawione wczytywanie wartosci z pliku
+
+** 0.1.1.0
+ * poprawiona konwersja do utf-8
+
+** 0.1.0.1
+ * rekompilacja pod nowe API
+
+** 0.1.0.0
+ * poprawnie usuwana strona ustawien przy wyladowaniu
+ * naprawa potencjalnego bledu zapisu
+ * ikona w oknie rozmowy i ustawien
+ * troche pozmieniane napisy i rozmiary kontrolek w oknie opcji
+ * wtyczka uzywa tego samego runtime co wtw
+
+** 0.0.1.0
+ * initial release

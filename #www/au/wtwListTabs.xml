@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Plik wygenerowany przez WTW Extension Maker v1.1.6312.0-->
+<metanode>
+  <updateInfo arch="*" fileBase="http://wtw.adrian-007.eu/download/" version="0.4.3.2">
+    <file lzFile="wtwListTabs.wtwExtension" />
+  </updateInfo>
+  <changelog name="wtwListTabs">
+    <group name="0.4.3.2">
+      <entry>- ze niby cos sie wywracalo</entry>
+    </group>
+  </changelog>
+</metanode>

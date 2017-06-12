@@ -1,0 +1,53 @@
+** 0.4.2.1
+ * przejscie na VS2013
+ * przejscie na paczkomat
+
+** 0.4.2.0
+ * dodana opcja do wylaczenia przycisku na belce w oknie rozmowy
+ * dodana opcja do wylaczenia powiadomienia o postepie wysylania pliku
+ * dodana pozycja w menu kontaktu do wyslania pliku na serwer
+
+** 0.4.1.0
+ * dodana opcja do ustawienia limitu czasu zadania (timeout)
+ * dodana opcja do ustawienia trybu pasywnego
+ * w trybie debug w konsoli wyswietlane sa komendy serwera FTP
+ * lepiej rozmieszczone elementy w oknie opcji
+ * przy nieudanej probie wyslania pliku wyswietli sie whatify
+
+** 0.4.0.0
+ * nowy mechanizm wysylania plikow na serwer (eksperymentalne)
+ * powiadomienie o postepie wysylania za pomoca whatify
+ * mozliwosc formatowania nazwy pliku na serwerze
+ * mozliwosc formatowania wiadomosci wysylanej do kontaktu
+ * kosmetyka
+
+** 0.3.2.0
+ * na vista i wyzej pojawia sie ladniejsze okno wyboru pliku
+ * implementacja api utlFTP :]
+
+** 0.3.0.0
+ * rekompilacja pod nowe API
+ * przepisany watek od wysylania plikow
+ * prawdopodobnie poprawiony crash przy wysylce
+ * troche powiadomien poprzez whatify co sie dzieje z plikiem
+ * fcja dostepna dla innych wtyczek, zeby dodac sobie plik do kolejki wysylania
+ * opcja do dodania znacznika czasu w nazwie pliku na serwerze
+
+** 0.2.1.1
+ * namiary na nowy serwer
+
+** 0.2.1.0
+ * poprawiony orzel przy wysylaniu
+
+** 0.2.0.0
+ * ikony w oknie rozmowy i opcji
+ * strona z opcji poprawnie usuwana
+ * kosmetyka z tekstami...
+ * wtyczka uzywa tego samego runtime co wtw
+
+** 0.1.0.0
+ * dziala rownierz na meta
+ * escape nazwy pliku w linku zgodnie ze standardem URI
+
+** 0.0.1.0
+ * initial release

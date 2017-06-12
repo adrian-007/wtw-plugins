@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Plik wygenerowany przez WTW Extension Maker v1.1.6312.0-->
+<metanode>
+  <updateInfo arch="*" fileBase="http://wtw.adrian-007.eu/download/" version="0.9.5.0">
+    <file lzFile="sounds.wtwExtension" />
+  </updateInfo>
+  <changelog name="sounds">
+    <group name="0.9.5.0">
+      <entry>- przejscie na VS2013</entry>
+      <entry>- usuniete menu z "narzedzia"</entry>
+      <entry>- dodany przycisk wyciszajacy dzwieki do panelu</entry>
+    </group>
+  </changelog>
+</metanode>

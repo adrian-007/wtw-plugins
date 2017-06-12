@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Plik wygenerowany przez WTW Extension Maker v1.1.6312.0-->
+<metanode>
+  <updateInfo arch="*" fileBase="http://wtw.adrian-007.eu/download/" version="0.1.4.3">
+    <file lzFile="wtwCopy.wtwExtension" />
+  </updateInfo>
+  <changelog name="wtwCopy">
+    <group name="0.1.4.3">
+      <entry>- przejscie na VS2013</entry>
+    </group>
+  </changelog>
+</metanode>

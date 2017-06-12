@@ -1,0 +1,136 @@
+﻿** 0.9.5.0
+ * przejscie na VS2013
+ * usuniete menu z "narzedzia"
+ * dodany przycisk wyciszajacy dzwieki do panelu
+
+** 0.9.4.0
+ * zarzucone wsparcie dla biblioteki bass
+ * wyzej wymieniona zarzucona zastapiona wlasna implementacja na bazie DirectShow (jakos dzialania porownywalna z bass, tyle, ze mniej problemow)
+ * w razie nie wspierania wyzej wymienionego, nastepuje automatyczny fallback do standardowego playera z windows
+ * male porzadki w gui
+
+** 0.9.3.1
+ * zdarzenia bez typu (before/after) teraz tez sa brane pod uwage przez dispatcher
+
+** 0.9.3.0
+ * dodana mozliwosc ignorowania dzwiekow w opcji edycji kontaktu (jezeli utlIgnore jest aktywna i wspiera fcje)
+
+** 0.9.2.0
+ * poprawione menu do aktywacji dzwiekow
+ * dodana opcja do wylaczenia dzwiekow gdy mamy stan 'nie przeszkadzac'
+
+** 0.9.1.4
+ * poprawka wczytywania zestawow
+ * poprawka zapisu niektorych ustawien
+
+** 0.9.1.2
+ * poprawione dzialanie dzwiekow na starym modelu zdarzen wiadomosci
+ * jakies proby poprawki dziwnego crasha bass
+
+** 0.9.1.0
+ * poprawiona niezainicjowana zmienna
+
+** 0.9.0.0
+ * dodana mozliwosc ustawienia oddzielnych dzwiekow dla okna otwartego/nieaktywnego/zamknietego
+
+** 0.8.3.0
+ * powiadomienie o wiadomosci mozna wlaczyc bez wzgledu na wybrane sieci na ktorych pracuje wtyczka
+ * troche czytelniejsze okno opcji
+ * ignorowane statusy nie aktualizuja czasu ostatniego zdarzenia
+ * nie bierzemy pod uwage pseudo-protokolow
+ * poprawiona obsluga bass
+ * procz zmiennej %beep% doszly: %warning%, %error%, %info% (wszystkie systemowe)
+
+** 0.8.2.0
+ * mozna teraz wylaczyc dzwieki na poszczegolnych sieciach
+
+** 0.8.1.0
+ * poprawione ignorowanie statusow na nowszych buildach wtw
+
+** 0.8.0.0
+ * poprawiony problem z zapisem ignorowanych zmian statusow
+ * w zestawie mozna definiowac elementy dostepne dla innych wtyczek
+ * w/w elementy moga uzywac inne wtyczki poprzez podanie zamiast sciezki do pliku - klucza zdefiniowanego w zestawie
+ * mooze poprawiony crash przy wyjsciu w niektorych sytuacjach
+
+** 0.7.10.0
+ * przerobione okno opcji - teraz wszystko jest w jednym miejscu
+
+** 0.7.9.0
+ * zmiana z vs 2010 na vs 2008 (moze wyeliminuje to dziwne wywrotki)
+
+** 0.7.8.0
+ * wyeksportowana fcja do uzywania player'a
+
+** 0.7.7.0
+ * proba naprawy crash'a ktorego za nic nie moge powtorzyc
+ * dodana mozliwosc ignorowania zmian poszczegolnych statusow w zaleznosci od statusu poprzedniego
+ * skoro wtw ma ikone 'audio' to ja wykorzystajmy tu i tam
+ * lekkie poprawki w szybkosci dzialania
+ * kosmetyka z gui
+
+** 0.7.6.1
+ * rekompilacja pod nowe API
+
+** 0.7.6.0
+ * namiary na nowy serwer
+ * dzwieki przechowywane sa teraz w katalogu profilu
+
+** 0.7.5.0
+ * dodana obsluga alertu
+ * nie ma takiego grania! nie ma notify - nie ma dzwieku
+ * wtyczka sprawdza, czy katalog na zestawy istnieje, a jak nie, to go sobie stworzy... dla ulomnych
+ * teraz plik zaladuje klasa do tego stworzona (std::ifstream no more)
+ * kolejnosc atrybutow nie ma znaczenia
+ * jak dla pluga atrybuty sie nie spodobaja albo jest ich za malo/duzo to oleje itema
+
+** 0.7.4.0
+ * mozna wylaczyc dzwieki dla aktywnej zakladki (dziala od night z 26/05/10)
+
+** 0.7.3.0
+ * naprawiony beep systemowy (cos tam zapisywac sie nie chcialo...)
+ * dodana mozliwosc filtrowania zdarzen (patrz opcje)
+ * dodana opcja do wylaczenia dzwiekow, gdy jestesmy na available/chat
+
+** 0.7.2.0
+ * mail w koncu dziala (z ostatnia night)
+ * jakastam kosmetyka w kodzie
+
+** 0.7.1.0
+ * wsparcie dla zestawow xml
+ * bass jest teraz opcjonalne
+ * mozliwosc uzywania dzwiekow dla praktycznie kazdego eventu (z uwzglednieniem roznych statusow)
+ * mozliwosc wylaczenia dzwiekow dla poszczegolnych sieci
+ * autoupdate
+ * jakies inne pierdoly o ktorych juz zapomnialem, bo beta wisi od ponad miesiaca :P
+
+** 0.4.0.2
+ * rekompilacja pod nowe API
+
+** 0.4.0.1
+ * dodana możliwość ładowania zestawów dźwięków
+
+** 0.3.2.1
+ * dodana obsługa alertu
+ * drobna kosmetyka
+ * dodana opcja do wyciszenia w menu (główne i tray)
+ * blokada kilku instancji wtyczki
+
+** 0.3.1.1
+ * naprawiony crash przy zapisie ustawien
+ * naprawiony crash przy przeładowywaniu pluginu w czasie działania programu
+ * małe optymalizacje w kodzie (mniej kopiowania)
+ * naprawiony filtr typu plików w oknie wyboru
+
+** 0.3.0.1
+ * naprawione zapisywanie glosnosci
+ * jezeli event jest zaznaczony, ale nie wybrano pliku to uzywany jest systemowy beep
+ * drobna kosmetyka tu i tam
+
+** 0.2.0.1
+ * zmieniony interface
+ * implementacja regulacji glosnosci
+ * opcja do wylaczenia dzwieku bez pozbywania sie sciezki do niego
+
+** 0.1.0.1
+ * initial release

@@ -1,0 +1,71 @@
+** 0.4.7.2
+ * przejscie na VS2013
+
+** 0.4.7.1
+ * poprawione wczytywanie bazy
+
+** 0.4.7.0
+ * naprawione opoznienie przy pierwszym wyswietleniu okna
+ * dodana konsola SQL
+ * wpisy sa odswiezane przy kazdym nowym wczytaniu danych
+
+** 0.4.6.0
+ * dodane menu do kopiowania informacji z listy wpisow
+ * domyslnie kolumna ID na liscie kontaktow jest schowana (mozna pokazac za pomoca menu)
+ * zaznaczanie/odznaczanie kontaktow przeniesione do menu listy kontaktow
+ * maly facelifting
+
+** 0.4.5.0
+ * dodana opcja kompaktowania bazy
+ * ikony sa brane z poprawnych proto (ale kontakt musi choc raz zmienic status, aby dokonala sie aktualizacja)
+ * przy usuwaniu wybranych wpisow usuwane sa takze kontakty 'sierotki'
+ * po kazdej akcji roletka wraca na domyslna pozycje
+
+** 0.4.4.0
+ * opcja usuwania kontaktow
+ * opcja do usuwania wpisow pasujacych do regul filtru
+ * opcja do usuwania wpisow z pustymi opisami
+ * limit wynikow jest zapisywany pomiedzy sesjami
+ * testowe przejscie na dodatek wtw
+
+** 0.4.2.0
+ * mozliwosc wyboru zakresu dat (-30 dni @ default)
+
+** 0.4.1.0
+ * mozliwosc wyszukiwania po opisie
+
+** 0.4.0.0
+ * przejscie na sqlite
+ * okno dialogowe zastapione strona w archiwum
+
+** 0.3.2.0
+ * okno historii nie blokuje okna glownego
+
+** 0.3.1.2
+ * poprawka z guid'em
+ * poprawka crt
+
+** 0.3.1.0
+ * rekompilacja pod nowe API
+ * update do visual studio 2008 sp1
+ * dynamiczne crt
+ * autoupdate
+
+** 0.3.0.0
+ * dodana opcja do zapisywania do pliku (folder profilu -> wtwStatusLog)
+ * ostatnio uzyte grupowanie jest zapamietywane
+ * zmiana stylu okna dialogowego
+ * menu zeby mozna bylo sobie z listy dane skopiowac do schowka
+ * siakas tam kosmetyka
+
+** 0.2.0.0
+ * dodana mozliwosc grupowania po nazwie/id i po statusie (imo wygodniejsze od sortowania, ktorego nie bedzie :P)
+ * dodany przycisk do czyszczenia historii
+ * dodana data do czasu zmiany statusu
+ * jakas inna kosmetyka
+
+** 0.1.0.1
+ * moze teraz nawet sie zaladuje...
+
+** 0.1.0.0
+ * initial release

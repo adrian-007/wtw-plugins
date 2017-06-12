@@ -1,0 +1,134 @@
+** 0.7.5.1
+ * przejscie na VS2013
+
+** 0.7.5.0
+ * poprawione ladowanie ikon
+ * eksperymentalne zastosowanie GDI+ do wyswietlania podgladu emotow
+ * podglad moze teraz miec max 10x10
+ * kosmetyka
+
+** 0.7.4.3
+ * poprawiony znak entera na XMPP
+
+** 0.7.4.2
+ * poprawiony wyciek pamieci przy ladowaniu podlgadu emotow
+ * poprawiony html escape (entery i tabulacja)
+
+** 0.7.4.1
+ * nie smiecimy w konsoli
+
+** 0.7.4.0
+ * ladowanie podgladu emotow przeniesione do oddzielnego watku, dzieki czemu wtw nie zamarza na 1-2 sekundy przy wlaczaniu gdy mamy duzy zestaw
+ * poprawiony delikatnie escape html
+ * mozliwosc ustawienia wlasnej ikony na belce (iconEmots.png)
+ * zaktualizowany boost::regex
+
+** 0.7.3.0
+ * podglad dopasowuje ilosc ikon do szerokosci listy, tym razem naprawde...
+ * mozna sobie zdefiniowac rozmiar podgladu (wiersze x kolumny)
+ * zestaw zostaje przeladowany tylko gdy sie zmienil
+
+** 0.7.2.0
+ * podglad wyswietla emoty w 2 kolumnach, niezaleznie od ich rozmiaru
+
+** 0.7.1.0
+ * inna kontrolka do podgladu emotow
+ * jezeli emota nie jest obrazkiem z paleta 32bit to olewamy kanal alpha
+
+** 0.7.0.0
+ * graficzny podglad emotow
+
+** 0.6.7.0
+ * emoty sa teraz w katalogu profilu
+
+** 0.6.6.0
+ * nowy kod dla okna wyboru emotow
+ * przez to wyzej poprawione zawieszanie sie wtw
+ * okno bardziej wycentrowane wzgledem przycisku
+
+** 0.6.5.0
+ * podglad emotow pojawia sie nad przyciskiem, a nie pod
+ * jak sie wybierze owy podglad, to okno glowne nie jest juz przywolywane na pierwszy plan
+
+** 0.6.4.3
+ * visual c++ nie jest tak inteligentne jakby sie wydawalo...
+
+** 0.6.4.2
+ * rekompilacja pod nowe API
+
+** 0.6.4.1
+ * namiary na nowa strone
+
+** 0.6.4.0
+ * mozliwosc wylaczenia podgladu emotow
+ * :F zamienione na ikone (taka sama pojawi sie przy stronie opcji)
+ * zmiana nazwy strony w opcjach...
+ * wtyczka uzywa tego samego runtime co wtw
+
+** 0.6.3.0
+ * tekstowy podglad emotow w oknie rozmowy (jezeli zestaw wspiera)
+ * okno ustawien jest teraz usuwane przy wyladowaniu wtyczki (ups...)
+
+** 0.6.2.0
+ * teraz plik zaladuje klasa do tego stworzona (std::ifstream no more)
+ * kolejnosc atrybutow nie ma znaczenia
+ * jak dla pluga atrybuty sie nie spodobaja albo jest ich za malo/duzo to oleje itema
+ * jezeli brak atrybutu icase to default'owo jest on ustawiony na true
+
+** 0.6.1.0
+ * jezeli wiadomosc to obrazek, to jej nie przetwarzamy
+ * opcja do wylaczenia emotow w ostrzezeniach, wiadomosciach informacyjnych, o bledach i zmianach statusow
+ * nowy parser linkow - teraz emoty nie powinny sie tam pojawiac
+
+** 0.6.0.0
+ * nowa biblioteka regex (boost::regex) co daje nam lookbehind i dzialajace icase
+ * poprawiona metoda odpowiadajaca za html escape
+ * poprawki zgodnosci ze standardem regex...
+ * jak skonczymy czytac xml, to zamykamy plik...
+ * drobne poprawki w czytaniu xml'a
+
+** 0.5.3.0
+ * inne crashe naprawione...
+
+** 0.5.2.0
+ * naprawiony crash przy przeladowaniu wtyczki
+ * naprawiony crash przy zaladowaniu starego zestawu
+
+** 0.5.1.0
+ * poprawiony html escape (moze teraz polubi blipa?)
+ * zmieniony schemat xml zestawow (taa... wiem...)
+ * dodane pole desc do zestawu (wielki come back) - jezeli nie jest puste to leci do atrybutu alt w kodzie html emoty
+ * jakies inne duperele
+
+** 0.5.0.0
+ * zmiana sposobu podmiany wiadomosci (z ostatnia wersja przestalo to dzialac)
+ * nowy algorytm wstawiania emotow
+ * po najechaniu na emota w dymku pojawi sie to co zostalo podmienione - czyli pole 'Description' z zestawu emotow moze wyleciec, bo jest po prostu od teraz ignorowane [:
+ * 'delikatne' zabiegi optymalizacyjne
+ * zaimplementowany autoupdate
+ * przycisk do otwierania katalogu z zestawami w opcjach - dla ulomnych...
+ * tabulacja zamieniana na twarda spacje przy zamianie na encje html (wciecia w kodzie ftw!)
+ * dodana opcja do xml'a - trzeci atrybut (zamiast 'Description') to teraz 'ignoreCase' czyli czy olac wielkosc liter (wartosc 1/0)
+
+** 0.4.0.1
+ * zamiast wybierac plik recznie, jest roletka do wybierania zestawow (fajna, nie?)
+
+** 0.3.0.1
+ * dodane optymalizacje - teraz dziala szybciej
+ * zmieniony sposob ladowania xml (kodowanie ma byc podane na samym poczatku pliku)
+ * naprawiony blad z >p => ;p i tym podobne
+ * workaround na linki i :/ => dziala dla http://google.com ale juz dla http://google.com?search=:/ nie koniecznie :P
+ * polskie znaczki powinny dzialac jak trzeba
+ * jeszcze jakies rzeczy, o ktorych zapomnialem, ale wiem, ze sa zrobione :P
+
+** 0.2.0.2
+ * a jednak trzeba encji w regex uzywac :P
+
+** 0.2.0.1
+ * poprawiona konwersja encji, co powodowalo zwiechy
+ * w xml'u jednak nie trzeba uzywac encji ;)
+ * kilka kosmetycznych poprawek tu i tam
+ * glowny folder przerzucony do Components/Theme/Emoticons
+
+** 0.1.0.1
+ * initial release

@@ -1,0 +1,60 @@
+** 0.2.0.1
+ * dostosowanie do nowego api konferencji
+ * nowy parser
+ * wsparcie dla skryptow Lua
+ * przejscie na VS2013
+ * przejscie na paczkomat WTW
+ * wersja silnie eksperymentalna
+
+** 0.1.10.1
+ * poprawione wczytywanie kont
+
+** 0.1.10.0
+ * status potrafi podporzadkowac sie globalnym ustawieniom
+
+** 0.1.8.0
+ * dodany przycisk do opuszczania/dolaczania do kanalu
+ * poprawiona ikona, kiedy dostalismy +o lub +v
+ * dodany autojoin
+ * poprawki w interpretacji MODE
+ * lepsze sortowanie listy uzytkownikow
+
+** 0.1.7.0
+ * dzis mam niefajowy humor i zmienilem config na format xml - stary poszedl w niepamiec wraz z ustawieniami
+ * systemowy font w oknach
+ * opcja do edycji/usuniecia kontaktu aktywna gdy nie jestesmy polaczeni z serwerem
+ * lekkie poprawki przy konwersji napisow
+ * opcja do ustawienia nazwy uzytkownika
+
+** 0.1.6.0
+ * poprawione ustawianie tytulu okna konferencji
+ * dodana obsluga NOTICE
+ * TCP Reply jest wyswietlane na kanale (jezeli znajdziemy usera)
+ * powiadomienia nie powinny wyrzucac okna na pierwszy plan
+ * powiadomienie gdy cos robimy a nie mamy do tego uprawnien
+ * nie rozlacza nas gdy zmienimy nick a ten jest zajety (podczas sesji)
+
+** 0.1.5.0
+ * wtyczka bedzie wznawiac polaczenie z pewnym opoznieniem
+ * lista adresow ip jest czyszczona przy kazdym nowym polaczeniu
+
+** 0.1.4.0
+ * naprawiona jeszcze jedna zwiecha
+ * pobieramy cala liste ip dla danego adresu i laczymy sie po kolei jak ktorys nie dziala
+ * teoretyczny auto-reconnect
+ * troche wiecej logow
+
+** 0.1.3.0
+ * naprawiona zwiecha przy usuwaniu konta
+
+** 0.1.2.0
+ * chyba poprawiona zwiecha wtw przez pewien czas w losowych sytuacjach
+ * chyba poprawiony auth
+ * troche wypocin w konsoli podczas laczenia sie
+ * jak nick jest zajety to automatycznie rozlaczamy sie z serwerem
+
+** 0.1.1.0
+ * standardowe ikony na liscie userow
+
+** 0.1.0.0
+ * initial release

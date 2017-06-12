@@ -1,0 +1,191 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAGE DIALOGEX 0, 0, 237, 201
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RTEXT           "Nazwa:",IDC_STATIC,7,17,43,8,WS_DISABLED
+    RTEXT           "Serwer:",IDC_STATIC,7,37,43,8
+    RTEXT           "Port:",IDC_STATIC,7,56,43,8
+    EDITTEXT        IDC_NAME,60,14,170,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SERVER,60,34,170,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT,60,53,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "Nick:",IDC_STATIC,7,113,43,8
+    RTEXT           "Has³o:",IDC_STATIC,7,131,43,8
+    EDITTEXT        IDC_NICK,60,110,170,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASS,60,128,170,14,ES_PASSWORD | ES_AUTOHSCROLL
+    RTEXT           "U¿ytkownik:",IDC_STATIC,7,95,43,8
+    EDITTEXT        IDC_USER,60,92,170,14,ES_AUTOHSCROLL
+    LTEXT           "Wiadomoœæ przy wyjsciu:",IDC_STATIC,7,167,147,8
+    EDITTEXT        IDC_QUIT_MSG,7,180,223,14,ES_AUTOHSCROLL
+END
+
+IDD_CNT_PAGE DIALOGEX 0, 0, 235, 194
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CNT_ID,61,13,159,14,ES_AUTOHSCROLL | WS_GROUP
+    EDITTEXT        IDC_CNT_NAME,61,83,159,14,ES_AUTOHSCROLL | WS_GROUP
+    COMBOBOX        IDC_CNT_GROUP,61,104,159,30,CBS_DROPDOWN | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    RTEXT           "Kana³:",IDC_STATIC,11,15,42,10,SS_CENTERIMAGE
+    RTEXT           "Nazwa:",IDC_STATIC,11,85,42,10,SS_CENTERIMAGE
+    RTEXT           "Grupa:",IDC_STATIC,11,105,42,10,SS_CENTERIMAGE
+    RTEXT           "Has³o:",IDC_STATIC,11,35,42,10,SS_CENTERIMAGE
+    EDITTEXT        IDC_CNT_PASS,61,33,159,14,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "Dane kana³u",IDC_STATIC,7,0,221,57
+    GROUPBOX        "Dane kontaktu",IDC_STATIC,7,69,221,58
+    CONTROL         "Automatycznie do³¹cz do kana³u po po³¹czeniu z serwerem",IDC_CNT_AUTOJOIN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,145,221,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        VERTGUIDE, 15
+        VERTGUIDE, 50
+        VERTGUIDE, 60
+        VERTGUIDE, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+        HORZGUIDE, 21
+        HORZGUIDE, 41
+        HORZGUIDE, 60
+    END
+
+    IDD_CNT_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 11
+        VERTGUIDE, 53
+        VERTGUIDE, 61
+        VERTGUIDE, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 187
+        HORZGUIDE, 20
+        HORZGUIDE, 40
+        HORZGUIDE, 90
+        HORZGUIDE, 110
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,4,0,1
+ PRODUCTVERSION 0,4,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041504b0"
+        BEGIN
+            VALUE "Comments", "Emotikony w WTW"
+            VALUE "CompanyName", "adrian_007"
+            VALUE "FileDescription", "WTW Plugin"
+            VALUE "FileVersion", "0, 4, 0, 1"
+            VALUE "InternalName", "protoIRC"
+            VALUE "LegalCopyright", "Copyright (C) 2009 adrian_007"
+            VALUE "OriginalFilename", "protoIRC.dll"
+            VALUE "ProductName", "protoIRC"
+            VALUE "ProductVersion", "0, 4, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x415, 1200
+    END
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

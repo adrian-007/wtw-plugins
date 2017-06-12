@@ -1,0 +1,141 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAGE DIALOGEX 0, 0, 235, 201
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,0,0,235,172
+    DEFPUSHBUTTON   "Dodaj",IDC_ADD,6,180,50,14
+    PUSHBUTTON      "Zmieñ",IDC_MOD,62,180,50,14
+    PUSHBUTTON      "Usuñ",IDC_DEL,118,180,50,14
+    PUSHBUTTON      "Góra",IDC_UP,174,180,24,14
+    PUSHBUTTON      "Dó³",IDC_DOWN,204,180,24,14
+END
+
+IDD_ITEM DIALOGEX 0, 0, 316, 258
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Element"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,237,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,259,237,50,14
+    EDITTEXT        IDC_REGEX,50,11,259,14,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    EDITTEXT        IDC_FORMAT,50,41,259,52,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    RTEXT           "Regex:",IDC_STATIC,7,14,38,8
+    RTEXT           "Format:",IDC_STATIC,7,44,38,8
+    GROUPBOX        "Typ wiadomoœci",IDC_STATIC,7,98,94,52
+    CONTROL         "Przychodz¹ce",IDC_DIR_IN,"Button",BS_AUTORADIOBUTTON,15,111,63,10
+    CONTROL         "Wychodz¹ce",IDC_DIR_OUT,"Button",BS_AUTORADIOBUTTON,15,123,60,10
+    CONTROL         "Wszystkie",IDC_DIR_BOTH,"Button",BS_AUTORADIOBUTTON,15,135,69,10
+    CONTROL         "Ignoruj wielkoœæ znaków",IDC_ICASE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,50,28,252,10
+    LTEXT           "Wiadomoœæ:",IDC_STATIC,15,167,95,8
+    GROUPBOX        "Tester wyra¿eñ",IDC_STATIC,7,154,302,76
+    EDITTEXT        IDC_TEST_MSG,15,183,287,40,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    PUSHBUTTON      "Testuj",IDC_TEST,252,164,50,14
+    GROUPBOX        "Tryb pracy",IDC_STATIC,110,98,192,40
+    CONTROL         "Zmieniaj treœæ wiadomoœci",IDC_MODIFY_CONTENT,"Button",BS_AUTORADIOBUTTON,120,111,98,10
+    CONTROL         "Zmieniaj sposób wyœwietlania treœci",IDC_MODIFY_DISPLAY,
+                    "Button",BS_AUTORADIOBUTTON,120,123,129,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ITEM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        VERTGUIDE, 15
+        VERTGUIDE, 45
+        VERTGUIDE, 50
+        VERTGUIDE, 110
+        VERTGUIDE, 120
+        VERTGUIDE, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG1                PNG                     "icon16.png"
+IDB_PNG2				PNG						"icon32.png"
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,62 @@
+** 0.4.3.2
+ * ze niby sie cos wywracalo
+
+** 0.4.3.1
+ * przejscie na VS2013
+
+** 0.4.3.0
+ * dodany skrot do przelaczania sie miedzy filtrami (ctrl+`)
+ * double-buffering dla niestandardowego wygladu kart (ladnie sie rysuje i w ogole, lepiej)
+
+** 0.4.2.0
+ * poprawiona orientacja czcionek
+ * poprawione przywracanie ostatnio wybranej karty
+ * troche mniej smiecenia w konsoli
+
+** 0.4.1.0
+ * troche bardziej skonczony silnik renderowania kart
+ * w standardowym wygladzie troche ladniejsza czcionka na kartach...
+
+** 0.4.0.0
+ * zmieniony silnik renderowania kart (acz nie skonczony)
+ * poprawiony blad wystepujacy na becie, objawiajacy sie blednie wyswietlanymi kartami
+
+** 0.3.3.0
+ * wtyczka zapamietuje ostatnio wybrana karte podczas przelaczania miedzy panelami
+ * gdy panel z kartami jest nieaktywny i wybierzemy jakis filtr, to karty sie do tego dostosuja
+ * wylaczenie panelu powoduje wylaczenie wszystkich filtrow
+
+** 0.3.2.0
+ * poprawne pokazywanie/chowanie listy (dziala z najnowsza nightly)
+ * wrocila mozliwosc umieszczenia kart na gorze i z lewej strony okna
+ * jakies inne drobne poprawki
+
+** 0.3.1.2
+ * panel to teraz panel, a nie button
+ * poprawione rysowanie/przemieszczanie kart
+ * wywalony full-window-mode, i tak pewnie nikt nie uzywal
+ * nie ma nazwy dla domyslnej zakladki, bo jej nie ma :P
+
+** 0.3.1.1
+ * zakladki mozna (wy)laczyc za pomoca przycisku na panelu (co rozwiazuje problem z dziwnym zachowaniem gdy panelu nie ma)
+
+** 0.3.0.0
+ * jezeli glowna karta nie ma nazwy, to nie jest tworzona (taka jedna maruda o to meczyla, no to ma)
+ * a gdy filtrow nie ma, to ww karta w ogole nie jest tworzona
+
+** 0.2.0.1
+ * visual c++ nie jest tak inteligentne jakby sie wydawalo...
+
+** 0.2.0.0
+ * mozna ustawic gradient na kartach
+ * rekompilacja pod nowe API
+
+** 0.1.0.0
+ * pozycja wybranej karty jest zapamietywana i przywracana po ponownym uruchomieniu
+ * zakladki sa teraz rysowane przez wtyczke (jako opcja)
+ * mozna wybierac kolory dla niestandardowych zakladek
+ * czcionka nazw filtrow jest teraz czcionka systemowa, a nie na pale Tahoma :P
+ * naprawiony tooltip na liscie kontaktow
+
+** 0.0.1.1
+ * initial release

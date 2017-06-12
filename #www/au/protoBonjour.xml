@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Plik wygenerowany przez WTW Extension Maker v1.1.6312.0-->
+<metanode>
+  <updateInfo arch="*" fileBase="http://wtw.adrian-007.eu/download/" version="0.0.0.4">
+    <file lzFile="protoBonjour.wtwExtension" />
+  </updateInfo>
+  <changelog name="protoBonjour">
+    <group name="0.0.0.4">
+      <entry>- poprawiony blad z podwojnym startem</entry>
+    </group>
+  </changelog>
+</metanode>

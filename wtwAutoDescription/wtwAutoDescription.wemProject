@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwAutoDescription</name>
+  <author>adrian_007</author>
+  <guid>{94F85897-5F74-4216-877C-16372C1EAA90}</guid>
+  <ver>0.1.0.2</ver>
+  <desc>Automatyczna zmiana opisu</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwAutoDescription.xml</update>
+  <class>0</class>
+  <image />
+  <pluginsx64>
+    <file name="wtwAutoDescription.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwAutoDescription.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwAutoDescription.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwAutoDescription.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwAutoDescription.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.1.0.2">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwShell</name>
+  <author>adrian_007</author>
+  <guid>{FDB53577-79FC-4004-A285-16066E678055}</guid>
+  <ver>0.1.0.2</ver>
+  <desc>Obsługa powłoki Windows z poziomu listy kontaktów</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwShell.xml</update>
+  <class>0</class>
+  <image />
+  <pluginsx64>
+    <file name="wtwShell.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwShell.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwShell.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwShell.plug" arch="1" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwShell.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.1.0.2">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

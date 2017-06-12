@@ -1,0 +1,4 @@
+EXPORTS
+   queryPlugInfo	@1
+   pluginLoad		@2
+   pluginUnload		@3

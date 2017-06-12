@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>pexTNCounter</name>
+  <author>adrian_007</author>
+  <guid>{E177D334-9D7D-4119-AB5C-82C123AEA3B3}</guid>
+  <ver>0.1.1.2</ver>
+  <desc>Wyświetlanie ilości wpisanych znaków przez drugą stronę</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/pexTNCounter.xml</update>
+  <class>0</class>
+  <image />
+  <pluginsx64>
+    <file name="pexTNCounter.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\pexTNCounter.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="pexTNCounter.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\pexTNCounter.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="pexTNCounter.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.1.1.2">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>

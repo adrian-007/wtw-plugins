@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--WTW Extension Maker v1.1.6312.0-->
+<wemProject>
+  <name>wtwHideDescription</name>
+  <author>adrian_007</author>
+  <guid>{D8320BBB-A73E-4B6B-8BF8-52F02717D373}</guid>
+  <ver>0.2.0.2</ver>
+  <desc>Ukrywanie opisów</desc>
+  <url>http://wtw.adrian-007.eu/</url>
+  <update>http://wtw.adrian-007.eu/au/wtwHideDescription.xml</update>
+  <class>0</class>
+  <image />
+  <pluginsx64>
+    <file name="wtwHideDescription.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\x64\wtwHideDescription.plug" arch="1" ni="False" />
+  </pluginsx64>
+  <pluginsx86>
+    <file name="wtwHideDescription.plug" loc="W:\Visual Studio Projects\wtw-plugins_svn\trunk\#compiled\Release\Win32\wtwHideDescription.plug" arch="2" ni="False" />
+  </pluginsx86>
+  <updatexml file="wtwHideDescription.xml" fileBase="http://wtw.adrian-007.eu/download/">
+    <changelog>
+      <group name="0.2.0.2">
+        <entry>- przejscie na VS2013</entry>
+      </group>
+    </changelog>
+  </updatexml>
+</wemProject>
